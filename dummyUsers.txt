@@ -1,0 +1,51 @@
+{
+    "user": {
+        "email":"JayWBarrett@jourrapide.com",
+        "password":"naewohR9ah"
+	"firstName":"Jay"
+	"lastName":"Barrett"
+	"admin":"true"
+    }
+}
+{
+    "user": {
+        "email":"JudyTDuran@rhyta.com",
+        "password":"wooXoog6ieph3"
+    }
+}
+{
+    "user": {
+        "email":"CamillaMAbernathy@teleworm.us",
+        "password":"ohGai1Zae"
+    }
+}
+{
+    "user": {
+        "email":"EllaCBarker@dayrep.com",
+        "password":"mu6eeTai8Ai"
+    }
+}
+{
+    "user": {
+        "email":"FrancisLJohnson@jourrapide.com",
+        "password":"sha8Quaei"
+    }
+}
+{
+    "user": {
+        "email":"DarrylTIbarra@teleworm.us",
+        "password":"zoiFiekou7ph"
+    }
+}
+{
+    "user": {
+        "email":"JesusLTanner@teleworm.us",
+        "password":"AiZa4eiyai"
+    }
+}
+{
+    "user": {
+        "email":"VincentTJohnson@dayrep.com",
+        "password":"Obooveidic3"
+    }
+}

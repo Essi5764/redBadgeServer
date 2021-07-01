@@ -1,0 +1,15 @@
+http://localhost:3000/user/create -POST
+
+http://localhost:3000/user/login -POST
+
+http://localhost:3000/course/create -POST
+
+http://localhost:3000/course/allcourses -GET
+
+http://localhost:3000/course/mycourses -GET
+
+http://localhost:3000/course/:title -GET
+
+http://localhost:3000/course/update/:id -GET
+
+http://localhost:3000/course/update/:id -GET
