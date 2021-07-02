@@ -1,10 +1,84 @@
 {
     "user": {
         "email":"JayWBarrett@jourrapide.com",
+        "password":"naewohR9ah",
+	"firstName":"Jay",
+	"lastName":"Barrett",
+	"role":"admin"
+    }
+}
+{
+    "user": {
+        "email":"JudyTDuran@rhyta.com",
+        "password":"wooXoog6ieph3",
+	"firstName":"Judy",
+	"lastName":"Duran",
+	"role":"admin"
+    }
+}
+{
+    "user": {
+        "email":"CamillaMAbernathy@teleworm.us",
+        "password":"ohGai1Zae",
+	"firstName":"Camilla",
+	"lastName":"MAbernathy",
+	"role":"teacher"
+    }
+}
+{
+    "user": {
+        "email":"EllaCBarker@dayrep.com",
+        "password":"mu6eeTai8Ai",
+	"firstName":"Ella",
+	"lastName":"Barker",
+	"role":"teacher"
+    }
+}
+{
+    "user": {
+        "email":"FrancisLJohnson@jourrapide.com",
+        "password":"sha8Quaei",
+	"firstName":"Francis",
+	"lastName":"Johnson",
+	"role":"user"
+    }
+}
+{
+    "user": {
+        "email":"DarrylTIbarra@teleworm.us",
+        "password":"zoiFiekou7ph",
+	"firstName":"Darryl",
+	"lastName":"Ibarra",
+	"role":"user"
+    }
+}
+{
+    "user": {
+        "email":"JesusLTanner@teleworm.us",
+        "password":"AiZa4eiyai",
+	"firstName":"Jesus",
+	"lastName":"Tanner",
+	"role":"user"
+    }
+}
+{
+    "user": {
+        "email":"VincentTJohnson@dayrep.com",
+        "password":"Obooveidic3",
+	"firstName":"Vincent",
+	"lastName":"Johnson",
+	"role":"user"
+    }
+}
+
+/*registration data ends here*/
+
+
+/*login data starts here*/
+{
+    "user": {
+        "email":"JayWBarrett@jourrapide.com",
         "password":"naewohR9ah"
-	"firstName":"Jay"
-	"lastName":"Barrett"
-	"admin":"true"
     }
 }
 {
@@ -49,3 +123,243 @@
         "password":"Obooveidic3"
     }
 }
+/*login data ends here*/
+
+/*courses starts here*/
+
+{
+    "course": {
+         title: Molecular Biology
+    	 category:Biology
+         content:Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                 Et malesuada fames ac turpis egestas sed tempus urna. 
+                 Consectetur adipiscing elit duis tristique. 
+                 Elementum pulvinar etiam non quam lacus suspendisse 
+                 faucibus interdum posuere. Morbi tincidunt augue 
+                 interdum velit euismod in pellentesque massa. 
+                 Mauris in aliquam sem fringilla ut morbi. 
+                 Quam adipiscing vitae proin sagittis. 
+                 Quisque egestas diam in arcu cursus euismod 
+                 quis viverra nibh. Nibh praesent tristique magna sit. 
+                 Quam vulputate dignissim suspendisse in est ante in nibh. 
+                 Morbi enim nunc faucibus a pellentesque sit.
+         instructor:camilla
+         created:7/02/2021
+    }
+}
+
+{
+    "course": {
+         title: Genetics
+    	 category:Biology
+         content:Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                 Et malesuada fames ac turpis egestas sed tempus urna. 
+                 Consectetur adipiscing elit duis tristique. 
+                 Elementum pulvinar etiam non quam lacus suspendisse 
+                 faucibus interdum posuere. Morbi tincidunt augue 
+                 interdum velit euismod in pellentesque massa. 
+                 Mauris in aliquam sem fringilla ut morbi. 
+                 Quam adipiscing vitae proin sagittis. 
+                 Quisque egestas diam in arcu cursus euismod 
+                 quis viverra nibh. Nibh praesent tristique magna sit. 
+                 Quam vulputate dignissim suspendisse in est ante in nibh. 
+                 Morbi enim nunc faucibus a pellentesque sit.
+         instructor:camilla
+         created:7/02/2021
+    }
+}
+
+{
+    "course": {
+         title: Physiology
+    	 category:Biology
+         content:Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                 Et malesuada fames ac turpis egestas sed tempus urna. 
+                 Consectetur adipiscing elit duis tristique. 
+                 Elementum pulvinar etiam non quam lacus suspendisse 
+                 faucibus interdum posuere. Morbi tincidunt augue 
+                 interdum velit euismod in pellentesque massa. 
+                 Mauris in aliquam sem fringilla ut morbi. 
+                 Quam adipiscing vitae proin sagittis. 
+                 Quisque egestas diam in arcu cursus euismod 
+                 quis viverra nibh. Nibh praesent tristique magna sit. 
+                 Quam vulputate dignissim suspendisse in est ante in nibh. 
+                 Morbi enim nunc faucibus a pellentesque sit.
+         instructor:camilla
+         created:7/02/2021
+    }
+}
+
+{
+    "course": {
+         title: Biotechnology
+    	 category:Biology
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                 Et malesuada fames ac turpis egestas sed tempus urna. 
+                 Consectetur adipiscing elit duis tristique. 
+                 Elementum pulvinar etiam non quam lacus suspendisse 
+                 faucibus interdum posuere. Morbi tincidunt augue 
+                 interdum velit euismod in pellentesque massa. 
+                 Mauris in aliquam sem fringilla ut morbi. 
+                 Quam adipiscing vitae proin sagittis. 
+                 Quisque egestas diam in arcu cursus euismod 
+                 quis viverra nibh. Nibh praesent tristique magna sit. 
+                 Quam vulputate dignissim suspendisse in est ante in nibh. 
+                 Morbi enim nunc faucibus a pellentesque sit.
+         instructor:camilla
+         created:7/02/2021
+    }
+}
+
+{
+    "course": {
+         title: Quantum Mechanics
+    	 category:Physics
+         content:Eu non diam phasellus vestibulum 
+                 lorem sed risus ultricies. Condimentum vitae 
+                 sapien pellentesque habitant morbi tristique 
+                 senectus et. Diam phasellus vestibulum lorem 
+                 sed. Ullamcorper dignissim cras tincidunt lobortis 
+                 feugiat vivamus. Lobortis mattis aliquam faucibus 
+                 purus in massa tempor nec. Massa vitae tortor 
+                 condimentum lacinia quis vel eros. Dui vivamus 
+                 arcu felis bibendum ut. Ut diam quam nulla porttitor 
+                 massa. Amet nisl purus in mollis nunc sed id semper 
+                 risus. Auctor neque vitae tempus quam pellentesque 
+                 nec. Potenti nullam ac tortor vitae purus faucibus 
+                 ornare suspendisse sed. Laoreet non curabitur gravida 
+                 arcu ac tortor dignissim convallis. Dolor sed viverra 
+                 ipsum nunc aliquet bibendum enim.
+         instructor:Ella
+         created:7/02/2021
+    }
+}
+
+{
+    "course": {
+         title: Mathematical Methods
+    	 category:Physics
+         content:Eu non diam phasellus vestibulum 
+                 lorem sed risus ultricies. Condimentum vitae 
+                 sapien pellentesque habitant morbi tristique 
+                 senectus et. Diam phasellus vestibulum lorem 
+                 sed. Ullamcorper dignissim cras tincidunt lobortis 
+                 feugiat vivamus. Lobortis mattis aliquam faucibus 
+                 purus in massa tempor nec. Massa vitae tortor 
+                 condimentum lacinia quis vel eros. Dui vivamus 
+                 arcu felis bibendum ut. Ut diam quam nulla porttitor 
+                 massa. Amet nisl purus in mollis nunc sed id semper 
+                 risus. Auctor neque vitae tempus quam pellentesque 
+                 nec. Potenti nullam ac tortor vitae purus faucibus 
+                 ornare suspendisse sed. Laoreet non curabitur gravida 
+                 arcu ac tortor dignissim convallis. Dolor sed viverra 
+                 ipsum nunc aliquet bibendum enim.
+         instructor:Ella
+         created:7/02/2021
+    }
+}
+
+{
+    "course": {
+         title: Electromagnetics
+    	 category:Physics
+         content:Eu non diam phasellus vestibulum 
+                 lorem sed risus ultricies. Condimentum vitae 
+                 sapien pellentesque habitant morbi tristique 
+                 senectus et. Diam phasellus vestibulum lorem 
+                 sed. Ullamcorper dignissim cras tincidunt lobortis 
+                 feugiat vivamus. Lobortis mattis aliquam faucibus 
+                 purus in massa tempor nec. Massa vitae tortor 
+                 condimentum lacinia quis vel eros. Dui vivamus 
+                 arcu felis bibendum ut. Ut diam quam nulla porttitor 
+                 massa. Amet nisl purus in mollis nunc sed id semper 
+                 risus. Auctor neque vitae tempus quam pellentesque 
+                 nec. Potenti nullam ac tortor vitae purus faucibus 
+                 ornare suspendisse sed. Laoreet non curabitur gravida 
+                 arcu ac tortor dignissim convallis. Dolor sed viverra 
+                 ipsum nunc aliquet bibendum enim.
+         instructor:Ella
+         created:7/02/2021
+    }
+}
+
+{
+    "course": {
+         title: Solid State
+    	 category:Physics
+         content:Eu non diam phasellus vestibulum 
+                 lorem sed risus ultricies. Condimentum vitae 
+                 sapien pellentesque habitant morbi tristique 
+                 senectus et. Diam phasellus vestibulum lorem 
+                 sed. Ullamcorper dignissim cras tincidunt lobortis 
+                 feugiat vivamus. Lobortis mattis aliquam faucibus 
+                 purus in massa tempor nec. Massa vitae tortor 
+                 condimentum lacinia quis vel eros. Dui vivamus 
+                 arcu felis bibendum ut. Ut diam quam nulla porttitor 
+                 massa. Amet nisl purus in mollis nunc sed id semper 
+                 risus. Auctor neque vitae tempus quam pellentesque 
+                 nec. Potenti nullam ac tortor vitae purus faucibus 
+                 ornare suspendisse sed. Laoreet non curabitur gravida 
+                 arcu ac tortor dignissim convallis. Dolor sed viverra 
+                 ipsum nunc aliquet bibendum enim.
+         instructor:Ella
+         created:7/02/2021
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*courses ends here*/

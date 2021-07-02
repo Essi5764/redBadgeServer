@@ -1,18 +1,18 @@
 const db = require('../db');
 const UserModel = require('./user');
 const CourseModel = require('./course');
-const EnrollementModel = require('./enrollment');
+const EnrollModel = require('./enrollment');
 
 
 module.exports = {
     dbConnection: db,
     UserModel,
     CourseModel,
-    EnrollementModel
+    EnrollModel
 };
 
 UserModel.hasMany(CourseModel);
 CourseModel.belongsTo(UserModel);
 
-UserModel.hasMany(EnrollementModel);
-EnrollementModel.belongsTo(UserModel);
+UserModel.hasMany(EnrollModel);
+EnrollModel.belongsTo(UserModel);

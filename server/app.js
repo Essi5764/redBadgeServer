@@ -2,7 +2,7 @@ require("dotenv").config();
 const Express = require("express");
 const app = Express();
 const dbConnection = require("./db");
-
+app.use(require("./middleware/header"))
 app.use(Express.json());
 
 const controllers = require("./controllers");
@@ -11,6 +11,7 @@ const controllers = require("./controllers");
 
 app.use("/course",controllers.courseController);
 app.use("/user",controllers.userController);
+
 
 
 dbConnection.authenticate()

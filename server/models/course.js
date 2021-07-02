@@ -11,17 +11,8 @@ const course = db.define('course',{
         allowNull: false,
     },
     content: {
-        type: DataTypes.STRING,
+        type: DataTypes.TEXT,
         allowNull: false
-    },
-    instructor: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-    },
-    created: {
-        type: DataTypes.DATE,
-        allowNull: false,
-        defaultValue: DataTypes.NOW
     }
     
 });

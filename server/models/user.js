@@ -18,10 +18,11 @@ const User = db.define('User', {
         type: DataTypes.STRING,
         allowNull: false,
     },
-    admin:{
-        type: DataTypes.BOOLEAN,
+    role:{
+        type: DataTypes.ENUM,
+        values: ["user","teacher","admin" ],
         allowNull: false,
-        defaultValue: false
+        defaultValue: "user"
     },
     
 });

@@ -1,8 +1,7 @@
 const jwt = require("jsonwebtoken");
 const {UserModel} = require("../models");
-const {EnrollModel} = require("../models");
 
-const validateJWT = async (req, res, next) => {
+const validateAdmin = async (req, res, next) => {
     if (req.method == "OPTIONS"){
         next();
     }else if(
@@ -14,7 +13,12 @@ const validateJWT = async (req, res, next) => {
         ? jwt.verify(authorization, process.env.JWT_SECRET) : undefined
         console.log("payload -->", payload);
         if(payload){
-            let foundUser = await UserModel.findOne({where: {id:payload.id}});
+            let foundUser = await UserModel.findOne({
+                where: {
+                    id:payload.id,
+                    role:"admin"
+                }
+            });
             console.log("foundUser -->", foundUser);
             if (foundUser){
                 console.log("request -->", req);
@@ -32,4 +36,4 @@ const validateJWT = async (req, res, next) => {
     
 };
 
-module.exports = validateJWT;
+module.exports = validateAdmin;
