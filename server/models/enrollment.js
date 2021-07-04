@@ -2,24 +2,24 @@ const { DataTypes} = require('sequelize');
 const db = require('../db');
 
 const enrollment = db.define('enrollment',{
-    course: {
-        type: DataTypes.INTEGER,
+    firstname: {
+        type: DataTypes.STRING,
         allowNull: false},
-    
-    enrolled: {
-        type: DataTypes.DATE,
+    lastname: {
+        type: DataTypes.STRING,
+        allowNull: false},
+    course: {
+        type: DataTypes.STRING,
+        allowNull: false},
+    category: {
+        type: DataTypes.STRING,
         allowNull: false,
-        defaultValue: DataTypes.NOW
-    },
-    student: {
-        type: DataTypes.INTEGER,
-        allowNull: false
+        
     },
     status: {
         type: DataTypes.STRING,
         allowNull: false,
-        values: ["Enrolled","Withdraw"],
-        defaultValue: "Enrolled"
+        
     }
 });
 module.exports = enrollment;

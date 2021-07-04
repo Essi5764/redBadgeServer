@@ -3,6 +3,7 @@ const { UserModel } = require("../models");
 const { UniqueConstraintError } = require("sequelize/lib/errors");
 let validateAdmin = require("../middleware/validate-admin");
 let validateJWT = require("../middleware/validate-jwt");
+
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 const models = require('../models');
@@ -135,28 +136,7 @@ router.delete("/admin/delete/:id", validateAdmin, async(req, res) =>{
 })
 
 
-router.post('/enroll/', async (req, res) =>{
-    
 
-    const {course,enrolled,student,status} = req.body.enrollment;
-    const {id} = req.user;
-    const courseEnroll = {
-        course,
-        enrolled,
-        student,
-        status,
-        UserId:id
-    }
-    try{
-        const newEnroll = await EnrollModel.create(courseEnroll);
-        res.status(200).json(newEnroll);
-    } catch (err) {
-        res.status(500).json({ 
-            message: "Unable to enroll",
-            error :err })
-    }
-    
-});
 
 
 module.exports = router;

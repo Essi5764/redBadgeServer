@@ -4,11 +4,12 @@ const {CourseModel,UserModel} = require('../models');//Import the Coursel Model
 let validateJWT = require("../middleware/validate-jwt");
 let validateAdmin = require("../middleware/validate-admin");
 let validateTeacher = require("../middleware/validate-teacher");
+
 const chalk = require('chalk');
 
 
 
-router.get('/practice',validateTeacher, (req, res) => {
+router.get('/practice', (req, res) => {
     res.send('Hey!! This is a practice route!')
 });
 router.get("/about", (req, res) => {

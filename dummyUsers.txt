@@ -311,6 +311,44 @@
     }
 }
 
+/* Enrollemnt */
+
+{
+    "enrollment": {
+	    "firstname":"Vincent",
+	    "lastname":"Johnson",
+	    "course":"Biotechnology",
+	    "category":"Biology",
+	    "status":"Enrolled"
+    }
+}
+{
+    "enrollment": {
+	"firstname":"Francis",
+	"lastname":"Johnson",
+	"course":"Biotechnology",
+	"category":"Biology",
+	"status":"Enrolled"
+    }
+}
+{
+   "enrollment": {
+	"firstname":"Darryl",
+	"lastname":"Ibarra",
+	"course":"Biotechnology",
+	"category":"Biology",
+	"status":"Enrolled"
+    }
+}
+{
+    "enrollment": {
+	"firstname":"Jesus",
+	"lastname":"Tanner",
+	"course":"Biotechnology",
+	"category":"Biology",
+	"status":"Enrolled"
+    }
+}
 
 
 
